@@ -1,10 +1,51 @@
-# memory-card-game
-Memory Card Game using HTML, CSS and JavaScript
+# 🃏 Card Game
 
-Website link: https://karimjan-card-game.netlify.app
+Simple card game built with **Vanilla JavaScript**.
 
-Telegram: https://t.me/karimjan_webdev
+---
 
-Instagram: https://instagram.com/karimjon.coding
+## 🚀 Features
 
-YouTube: https://www.youtube.com/channel/UCwE90mtgUnH97di4ccpfYUg
+* Card-based gameplay
+* Score tracking
+* Game restart functionality
+* Responsive UI
+
+---
+
+## 🛠 Tech Stack
+
+* HTML
+* CSS
+* JavaScript
+
+---
+
+## ▶️ Live Demo
+
+Deployed on **Netlify**
+👉 *(Netlify linkni shu yerga qo‘shasiz)*
+
+---
+
+## 📂 Project Structure
+
+```bash
+card-game/
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+```
+
+---
+
+## 👨‍💻 Author
+
+Karimjon (Abdulkarim Nasimiy)
+
+---
+
+## 📄 License
+
+Free to use for learning and portfolio purposes.
