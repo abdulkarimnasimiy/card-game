@@ -24,7 +24,7 @@ Simple card game built with **Vanilla JavaScript**.
 ## ▶️ Live Demo
 
 Deployed on **Netlify**
-👉 *(Netlify linkni shu yerga qo‘shasiz)*
+👉 [*LINK*](https://card-game-nasimiy.netlify.app/)
 
 ---
 
