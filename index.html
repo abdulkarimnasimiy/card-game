@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="description" content="Memory Card Game built with JavaScript. Developer: Karimjan" />
+  <meta name="keywords" content="javascript, html, css, memory game, card game, karimjan, karimjon komilov" />
+  <meta name="author" content="Karimjan" />
+
+  <title>Card Game</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+  <link rel="manifest" href="site.webmanifest" />
+</head>
+
+<body>
+
+  <!-- Loader -->
+  <div class="loader">
+    <div class="ring"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+  <h1>Card Game</h1>
+
+  <div class="stats">
+    <div>⏱ <span id="timer">0</span>s</div>
+    <div>🎯 <span id="moves">0</span></div>
+    <div>🏆 <span id="best">--</span></div>
+  </div>
+
+  <div class="controls">
+    <button id="restart">🔁 Restart</button>
+    <button id="theme">🌓 Theme</button>
+    <button id="sound">🔊 Sound</button>
+
+    <select id="difficulty">
+      <option value="4">Easy</option>
+      <option value="6">Medium</option>
+      <option value="8">Hard</option>
+    </select>
+  </div>
+</header>
+
+
+  <!-- Game Board -->
+  <main>
+    <div class="container" id="container"></div>
+  </main>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
